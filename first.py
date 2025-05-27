@@ -4,7 +4,7 @@ name = input("What is your name? ")
 
 #removing whitespaces from both age and name variable 
 
-name = name.strip()
+name = name.strip().title()
 age = input("What is your age? ")
 
 age =  age.strip()
