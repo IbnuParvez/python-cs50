@@ -1,8 +1,11 @@
-while True:
-  n = int("Whats your choice? ")
+def main():
+ while True:
+  n = int(input("Whats your choice? "))
   if n > 0:
-    break
+      break
+  return n
 
-for _ in range(n):
+ for _ in range(n):
   print("meow")
 
+main()
